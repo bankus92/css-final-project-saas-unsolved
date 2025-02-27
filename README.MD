@@ -25,7 +25,7 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 
 `General`
 
-- [ ] The layout of the submitted project must match the Figma mockups as closely as possible (100% match) for all three screen sizes: desktop, tablet, and mobile.
+- [!!!!!!] The layout of the submitted project must match the Figma mockups as closely as possible (100% match) for all three screen sizes: desktop, tablet, and mobile.
 - [ ] The project initially includes a single CSS file, but you can use multiple files if needed. Ensure that styles are not duplicated across these files.
 - [ ] You can use any fonts you prefer, such as standard library sans-serif fonts or sans-serif web fonts.
 - [ ] The screenshots of the solved version of that project are located in `/assets/screenshots/`.
