@@ -70,36 +70,87 @@ header {
 
 /*Main*/
 
+.section-container {
+}
+
 .section1 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
 .div-nav {
+  display: flex;
 }
 
 .play {
+  border: 1px solid rgb(3, 95, 199);
+  background-color: rgb(3, 95, 199);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 30px;
+  width: 100px;
+}
+
+.play a {
+  text-decoration: none;
+  color: white;
 }
 
 .learn {
+  border: none;
+  background: none;
+}
+
+.learn a {
+  text-decoration: none;
+  color: rgb(3, 95, 199);
+  font-weight: 600;
+}
+
+.learn a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /*Logos*/
 
 .logos {
+  position: relative;
+  right: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  left: 0%;
 }
 
 .google {
+  display: flex;
+  height: 40px;
 }
 
 .atl-asa {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
 }
 
 .paypal-weave {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
 }
 
 .google-ads {
+  display: flex;
+  height: 40px;
 }
 
 .g-calendar {
+  display: flex;
+  height: 60px;
 }
 
 /*Subsection*/
