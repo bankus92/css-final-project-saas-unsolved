@@ -71,8 +71,21 @@ header {
 /*Main*/
 
 .section-container {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 50px;
 }
 
+.section1-container {
+  /* Come back to this 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../assets/bg/background-top.svg);
+  background-size: cover;
+}
+*/
 .section1 {
   display: flex;
   flex-direction: column;
@@ -116,46 +129,80 @@ header {
 
 /*Logos*/
 
+.logos div > img {
+  border: white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 1px rgb(185, 185, 185);
+  overflow: visible;
+  padding: 10px;
+}
+
 .logos {
-  position: relative;
-  right: 0%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: grid;
+  grid-template-rows: 0em 1fr;
   width: 50%;
-  left: 0%;
 }
 
 .google {
   display: flex;
   height: 40px;
+  margin-left: 20px;
 }
 
 .atl-asa {
   display: flex;
   height: 60px;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  margin-left: 40px;
 }
 
 .paypal-weave {
+  margin-top: 50px;
   display: flex;
   height: 60px;
-  justify-content: space-between;
+  width: 100%;
+  gap: 40%;
 }
 
 .google-ads {
+  margin-top: 20px;
   display: flex;
   height: 40px;
+  margin-left: 100px;
 }
 
 .g-calendar {
+  margin-top: -30px;
+  margin-left: 60%;
   display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
   height: 60px;
 }
 
 /*Subsection*/
 
 .subsection1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subsection1 #details {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.subsection1 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subsection1 ul li {
+  font-weight: 600;
+  list-style: none;
+  padding: 5px;
 }
 
 /*Pricing*/
