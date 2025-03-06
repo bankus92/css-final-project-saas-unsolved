@@ -309,6 +309,7 @@ header {
   justify-content: center;
   text-align: left;
   margin-top: 40px;
+  margin-bottom: 80px;
   height: min-content;
 }
 
@@ -377,7 +378,19 @@ header {
 
 /*Box 3*/
 
-.price-details3 {
+.cancel {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.price-details button {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(13, 177, 108, 0.815);
+  height: min-content;
+  font-size: 12px;
 }
 
 /*Box 4*/
@@ -385,18 +398,40 @@ header {
 .price-details4 {
 }
 
+/*Start hiring section*/
+
+.hiring-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(29, 47, 104);
+}
+
 /*Quote*/
 
 .hire-us {
+  display: flex;
+  margin: 20%;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  align-content: center;
+}
+
+.hire-us img {
+  width: 50px;
+  border-radius: 50%;
 }
 
 #hire-us-subtext {
 }
 
 #quote-text {
+  color: white;
 }
 
 #quote-author {
+  font-size: 18px;
+  color: white;
 }
 
 .quote-author-subtext {
@@ -405,7 +440,10 @@ header {
 /*Hiring Details*/
 
 .hiring-form {
-  width: 80%;
+  margin: 3%;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
 }
 
 #privacy-policy1 {
