@@ -8,9 +8,6 @@ html {
   background-color: white;
 }
 
-body {
-}
-
 /*Header*/
 header {
   width: 100%;
@@ -355,6 +352,32 @@ header {
   padding-bottom: 30px;
 }
 
+.price-container {
+  font-size: 10px;
+}
+
+.play {
+  display: flex;
+  font-size: 10px;
+  gap: 5px;
+}
+
+.play-circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+
+.play-icon {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border-left: 6px solid #0066ff;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
 /*Price Details*/
 
 .price-details {
@@ -390,7 +413,7 @@ header {
   color: white;
   background-color: rgba(13, 177, 108, 0.815);
   height: min-content;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /*Box 4*/
