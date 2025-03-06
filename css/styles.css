@@ -1,5 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
 html {
@@ -79,6 +80,7 @@ header {
 /*Main*/
 
 .section-container {
+  width: 100%;
   background-color: white;
   margin-left: 10px;
   margin-right: 10px;
@@ -225,6 +227,15 @@ header {
   margin-top: 20px;
 }
 
+.list-container h2 {
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+
+.list-container p {
+  font-size: 12px;
+}
+
 .progress-container {
   display: flex;
   align-items: center;
@@ -292,62 +303,66 @@ header {
 }
 
 /*Pricing*/
-.price {
-  margin-top: 100px;
+
+.price-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-top: 40px;
+  height: min-content;
 }
+
+.price-container > div {
+  padding: 20px;
+}
+
+.price-container img {
+  width: 40px;
+}
+
+.price-container h3 {
+  font-size: 13px;
+}
+
+.price-container p {
+  font-size: 11px;
+}
+
+/*Price-Box*/
 
 .price-box {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  height: 250px;
-  text-align: left;
-  border: outset white 0px;
-  box-shadow: rgba(175, 175, 175, 0.486) 4px 4px 10px 4px;
+  justify-content: center;
+  box-shadow: rgba(182, 182, 182, 0.5) 4px 4px 10px 3px;
 }
 
-.price-details img {
-  width: 100px;
-}
-
-.price-box-section {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  border-bottom: rgb(209, 209, 209) 2px solid;
-  margin-inline: 20px;
-}
-
-#price {
-  position: relative;
-  transform: translateY(-13%);
-  display: flex;
-  font-size: 30px;
+.price-box h2 {
+  font-size: 32px;
   font-weight: 300;
-  color: black;
-  padding: 0;
 }
 
-#price-text {
-  font-size: 13px;
-  margin-inline: 20px;
+.price-box .price-box-section {
+  display: flex;
+  align-items: baseline;
+  height: auto;
+  gap: 5px;
+  border-bottom: rgba(218, 218, 218, 0.589) 2px solid;
 }
 
-.play {
-  margin-left: 20px;
-}
-
-#button-subtext {
-  margin-left: 20px;
-  font-size: 10px;
+.price-box #price-text {
+  padding-bottom: 30px;
 }
 
 /*Price Details*/
 
-.price-details-subtext {
+.price-details {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.price-details > div {
+  padding: 10px;
 }
 
 /*Box 1*/
